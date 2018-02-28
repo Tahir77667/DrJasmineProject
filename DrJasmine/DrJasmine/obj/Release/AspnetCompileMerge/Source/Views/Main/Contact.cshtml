@@ -1,0 +1,491 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dr Jasmine's Physiotherapy and Hijama Centre</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Core Styles-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--External Styles-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="~/assets/css/external/jquery-ui.theme.css" rel="stylesheet" />
+    <link href="~/assets/css/external/ytplayer.css" rel="stylesheet" />
+    <link href="~/assets/css/external/jquery.bxslider.css" rel="stylesheet" />
+    <link href="~/assets/css/external/yamm.css" rel="stylesheet" />
+    <link href="~/assets/css/external/slick.css" rel="stylesheet" />
+    <link href="~/assets/css/external/wfmi-style.css" rel="stylesheet" />
+    <link href="~/assets/css/external/lightbox.css" rel="stylesheet" />
+    <!--Project Styles-->
+    <link href="~/assets/css/project/style.css" rel="stylesheet" />
+    <!--Google Web Fonts-->
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+    <!-- End Preloader -->
+    <!--Header Intro-->
+    <div class="header-intro visible-lg">
+        <div class="container pt-0 pb-0 ">
+            <div class="header-intro-section">
+                <div class="icon-box">
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-clock-o"></i></td>
+                            <td>
+                                <div class="icon-box-text">
+                                    Mon-Sat   10am - 6pm<br />
+                                    <strong>Sunday CLOSED</strong>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div class="icon-box">
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-envelope-o"></i></td>
+                            <td>
+                                <div class="icon-box-text">
+
+                                    <strong>healthcare@drjasmines.com</strong>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="icon-box pull-right">
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-phone-square"></i></td>
+                            <td>
+                                <div class="icon-box-text">
+
+                                    For Home Visits Call Now <br />
+                                    <strong>+91-9004561406</strong>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-intro-2">
+        <div class="container pt-0 pb-0">
+            <div class="row ml-0 mr-0">
+                <div class="col-lg-4 visible-lg"><img src="~/assets/img/logo/Physiotherapy web.png" class="img-responsive" alt="logo" /></div>
+                <div class="col-md-12 col-lg-8 pl-0 pr-0">
+                    <!-- Main Menu -->
+                    <div id="main-menu">
+                        <div class="navbar yamm navbar-default" role="navigation">
+                            <div class="container pt-0 pb-0">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-navbar">
+                                        <span class="sr-only">
+                                            Toggle navigation
+                                        </span>
+                                        <span class="icon-bar">
+                                        </span>
+                                        <span class="icon-bar">
+                                        </span>
+                                        <span class="icon-bar">
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="main-menu-navbar">
+                                    <ul class="nav navbar-nav pull-right">
+                                        @*<li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="index.html">  Home-1</a></li>
+                                                <li><a href="index-2.html">Home-2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="about-1.html">About Us-1</a></li>
+                                                <li><a href="about-2.html">About Us-2</a></li>
+                                            </ul>
+                                        </li>*@
+                                        <li><a href="Home">Home</a></li>
+                                        <li><a href="About">About Us</a></li>
+                                        <li><a href="Services">Services</a></li>
+                                        <li><a href="Appointment">Appointment</a></li>
+                                        <li class="dropdown yamm yamm-fw">
+                                            @*<a href="#" data-toggle="dropdown" class="dropdown-toggle">Components</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+
+                                                    <div class="yamm-content">
+
+                                                        <div class="row">
+                                                            <ul class="col-sm-3 list-unstyled">
+
+                                                                <li><a href="accordion.html">Accordion</a></li>
+                                                                <li><a href="columns.html">Columns</a></li>
+                                                                <li><a href="font-icons.html">Font Icons</a></li>
+                                                                <li><a href="photo-gallery.html">Photo Gallery</a></li>
+
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="pricing-table.html">Pricing Table</a></li>
+                                                                <li><a href="progress-bars.html">Progress Bars</a></li>
+                                                                <li><a href="tabs.html">Tabs</a></li>
+                                                                <li><a href="text-rotator.html">Text Rotator</a></li>
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="fact-counter.html">Fact Counter</a></li>
+                                                                <li><a href="alerts-callouts.html">Alerts & Callouts</a></li>
+                                                                <li><a href="sliders.html">Sliders</a></li>
+                                                                <li><a href="tables.html">Tables</a></li>
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="faq.html">FAQ</a></li>
+                                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                                <li><a href="typography.html">Typography</a></li>
+                                                                <li><a href="pie-chart.html">Pie Chart</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown yamm yamm-fw">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+
+                                                    <div class="yamm-content">
+
+                                                        <div class="row">
+                                                            <ul class="col-sm-3 list-unstyled">
+
+                                                                <li><a href="blog-left-side-bar.html">Blog Left Side Bar</a></li>
+                                                                <li><a href="blog-right-side-bar.html">Blog Right Side Bar</a></li>
+                                                                <li><a href="blog-full-width.html">Blog Full Width</a></li>
+                                                                <li><a href="blog-post.html">Blog Single Post</a></li>
+
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="portfolio-3col-1.html">Portfolio 3 Column 1</a></li>
+                                                                <li><a href="portfolio-3col-2.html">Portfolio 3 Column 2</a></li>
+                                                                <li><a href="portfolio-4col-1.html">Portfolio 4 Column 1</a></li>
+                                                                <li><a href="portfolio-4col-2.html">Portfolio 4 Column 2</a></li>
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="portfolio-item-1.html">Portfolio Item 1</a></li>
+                                                                <li><a href="portfolio-item-2.html">Portfolio Item 2</a></li>
+                                                                <li><a href="portfolio-item-3.html">Portfolio Item 3</a></li>
+                                                                <li><a href="portfolio-item-4.html">Portfolio Item 4</a></li>
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="portfolio-item-5.html">Portfolio Item 5</a></li>
+                                                                <li><a href="portfolio-item-6.html">Portfolio Item 6</a></li>
+                                                                <li><a href="portfolio-item-7.html">Portfolio Item 7</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>*@
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="Blog">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Main Menu -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--End Header Intro-->
+    <!-- Section Title -->
+    <section id="section-title" class="bg-alternative">
+        <div id="top-img-bg">
+            <h1 class="text-center">Contact</h1>
+        </div>
+    </section>
+    <!-- End Section Title -->
+    <!-- Contact -->
+    <section id="contact" class="bg-alternative">
+        <div class="contact-wrapper">
+            <!-- Seperator -->
+            <section id="seperator1" class="seperator">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="font-icon">
+                                <h1 class="text-center color-text"><i class="fa fa-map-o"></i> &nbsp; Contact</h1>
+                            </div>
+                            <div class="vs-25"></div>
+                            <div class="seperator-text">
+                                <p>Sed porttitor, justo in feugiat mollis, nunc velit luctus purus, in commodo nisi magna ut sa. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Seperator -->
+            <section id="contact-details">
+
+                <div class="container pt-0">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="contact-map">
+
+                                <div class="embed-responsive embed-responsive-16by9 ">
+                                    
+                                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12042.38341328123!2d28.962356227081358!3d41.01221819455958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9eb9d587135%3A0x8aa0bb6b1dd6ffb7!2zRW1pbsO2bsO8LCBSw7xzdGVtIFBhxZ9hLCAzNDExNiBGYXRpaC_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1464594595424" width="800" height="445" style="border:0; pointer-events:none" allowfullscreen class="embed-responsive-item "></iframe>-->
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3082.4051592947535!2d72.82737014621756!3d18.974329657536536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22383519bd071708!2sDr.+Jasmine&#39;s+Physiotherapy+%26+Hijama+Centre!5e0!3m2!1sen!2sin!4v1513310983791" width="800" height="600" frameborder="0" style="border:0" allowfullscreen class="embed-responsive-item "></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-details-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="contact-details">
+                                    <h3 class="color-text">Contact Details</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna. Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+                                    <div class="company-meta">
+                                        <div class="width-half">
+                                            <h3>
+                                                <span>
+                                                    <i class="fa fa-map-marker"></i>
+                                                </span> Our Clinic
+                                            </h3>
+                                            <p>
+                                                Momin Manzil,
+                                                <br>Madhav Rao Gangan St,
+                                                <br>Agripada,Maharashtra,
+                                                <br>Mumbai-400008.
+                                            </p>
+                                        </div>
+                                        <div class="width-half">
+                                            <h3>
+                                                <span>
+                                                    <i class="fa fa-comment-o"></i>
+                                                </span> Contact Info
+                                            </h3>
+                                            <p>
+                                                <abbr>Email:</abbr><a href="mailto:healthcare@drjasmines.com" class="link">healthcare@drjasmines.com</a>
+                                            </p>
+                                            <p>
+                                                <abbr>Tel:</abbr> +91 900 456 1406
+                                            </p>
+                                            @*<p>
+                                                <abbr>Fax:</abbr> +1 234 567 890
+                                            </p>*@
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="contact-form">
+                                    <h3 class="color-text">Contact Form</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <!-- Contact Form -->
+                                    <form id="contact-form" action="post">
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="control-group">
+                                                        <div class="controls">
+                                                            <input id="contact-name" class="form-control" name="contact-name" required="" placeholder="Name" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="control-group">
+                                                        <div class="controls">
+                                                            <input id="contact-email" class="form-control" name="contact-email" required="" placeholder="Email" type="email">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="control-group">
+                                                        <div class="controls">
+                                                            <input id="contact-subject" name="contact-subject" class="form-control" required="" placeholder="Subject" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="control-group">
+                                                        <div class="controls">
+                                                            <textarea id="contact-message" class="form-control" name="contact-message" rows="6" placeholder="Message"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="control-group">
+                                                        <div class="controls">
+                                                            <button class="btn btn-normal btn-block" id="contact-send"><i class="fa fa-envelope-o fa-2x"></i> </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                    <!-- End Contact Form -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </section>
+    <!-- End Contact -->
+    <!-- Callout -->
+    @*<section id="callout" class="bg-alternative visible-lg">
+
+        <div class="well">
+            <div class="container pt-35 pb-35">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="callout-wrap">
+                            <h3>Praesent faucibus nisl sit amet nulla sollicitudin <a href="#" class="btn btn-normal btn-lg pull-right"><i class="fa fa-bolt"></i>Purchase Now</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+    <!-- End Callout -->
+    <!-- Footer -->
+    <footer class="bg-blue-3">
+        <div class="container pb-0">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3>About Us</h3>
+                    <p>Our aim is to provide best possible level of service to our patients enabling them to carry out their day-to-day activities without any predicament.
+                       To spread awareness and educate people about the perquisites that physiotherapy held as a treatment of various ailments. </p>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3> Provided Services</h3>
+                    <ul class="provided-services">
+                        <li><a href="#">Physiotherapy</a></li>
+                        <li><a href="#">Hijama</a></li>
+                        <li><a href="#">Dry Cupping</a></li>
+
+                    </ul>
+                    <ul class="provided-services">
+                        <li><a href="#">Dry Needling</a></li>
+                        <li><a href="#">Rehabilitation</a></li>
+                        <li><a href="#">Physical Theraphy</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Address: Momin Manzil,
+                                <br>  Madhav Rao Gangan St,
+                                <br>  Agripada,Maharashtra,
+                                <br>  Mumbai-400008. <br />
+                        Phone: (+91) 900 456 1406<br />
+                        Email: healthcare@drjasmines.com
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3>Opening Hours</h3>
+                    <p>
+                        Mon-Sat <br />
+                        10am-6pm<br />
+                        Sunday CLOSED
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <hr />
+            </div>
+            <div class="row">
+                <div class="footer-inner-wrap">
+                    <div class="footer-inner">
+                        <div class="col-lg-12">
+                            <p class="text-center">&copy;2017 Allrights reserved</p><p class="text-center">
+                                <a href="https://www.facebook.com/DrJasmines/" class="btn-social-media"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="btn-social-media"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="btn-social-media"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="btn-social-media"><i class="fa fa-pinterest"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Go Back Top-->
+    <section id="go-back-top">
+        <a class="scroll" href="#main-menu">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </section>
+    <!-- End Go Back Top-->
+    <!--Core Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!--External Scripts-->
+    <script src="~/assets/js/external/jquery.backstretch.min.js"></script>
+    <script src="~/assets/js/external/jquery.countTo.js"></script>
+    <script src="~/assets/js/external/jquery.easing.1.3.js"></script>
+    <script src="~/assets/js/external/jquery.mb.YTPlayer.js"></script>
+    <script src="~/assets/js/external/waypoints.min.js"></script>
+    <script src="~/assets/js/external/jquery.bxslider.min.js"></script>
+    <script src="~/assets/js/external/slick.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/assets/js/external/lightbox-2.6.min.js"></script>
+    <!--Project Scripts-->
+    <script src="~/assets/js/project/script.js"></script>
+
+</body>
+</html>
+
+

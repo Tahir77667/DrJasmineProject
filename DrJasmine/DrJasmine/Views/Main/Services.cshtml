@@ -1,0 +1,510 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dr Jasmine's Physiotherapy and Hijama Centre</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Core Styles-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--External Styles-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="~/assets/css/external/jquery-ui.theme.css" rel="stylesheet" />
+    <link href="~/assets/css/external/ytplayer.css" rel="stylesheet" />
+    <link href="~/assets/css/external/jquery.bxslider.css" rel="stylesheet" />
+    <link href="~/assets/css/external/yamm.css" rel="stylesheet" />
+    <link href="~/assets/css/external/slick.css" rel="stylesheet" />
+    <link href="~/assets/css/external/wfmi-style.css" rel="stylesheet" />
+    <link href="~/assets/css/external/lightbox.css" rel="stylesheet" />
+    <link href="~/assets/css/external/bootstrap.vertical-tabs.css" rel="stylesheet" />
+    <!--Project Styles-->
+    <link href="~/assets/css/project/style.css" rel="stylesheet" />
+    <!--Google Web Fonts-->
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+    <!-- End Preloader -->
+    <!--Header Intro-->
+    <div class="header-intro visible-lg">
+        <div class="container pt-0 pb-0 ">
+            <div class="header-intro-section">
+                <div class="icon-box">
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-clock-o"></i></td>
+                            <td>
+                                <div class="icon-box-text">
+                                    Mon-Sat   10am - 6pm<br />
+                                    <strong>Sunday CLOSED</strong>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div class="icon-box">
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-envelope-o"></i></td>
+                            <td>
+                                <div class="icon-box-text">
+
+                                    <strong>healthcare@drjasmines.com</strong>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="icon-box pull-right">
+                    <table>
+                        <tr>
+                            <td><i class="fa fa-phone-square"></i></td>
+                            <td>
+                                <div class="icon-box-text">
+
+                                    For Home Visits Call Now <br />
+                                    <strong>+91-9004561406</strong>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-intro-2">
+        <div class="container pt-0 pb-0">
+            <div class="row ml-0 mr-0">
+                <div class="col-lg-4 visible-lg"><img src="~/assets/img/logo/physiotherapy.jpg" class="img-responsive" alt="logo" /></div>
+                <div class="col-md-12 col-lg-8 pl-0 pr-0">
+                    <!-- Main Menu -->
+                    <div id="main-menu">
+                        <div class="navbar yamm navbar-default" role="navigation">
+                            <div class="container pt-0 pb-0">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-navbar">
+                                        <span class="sr-only">
+                                            Toggle navigation
+                                        </span>
+                                        <span class="icon-bar">
+                                        </span>
+                                        <span class="icon-bar">
+                                        </span>
+                                        <span class="icon-bar">
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="main-menu-navbar">
+                                    <ul class="nav navbar-nav pull-right">
+                                        @*<li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="index.html">  Home-1</a></li>
+                                                <li><a href="index-2.html">Home-2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="About" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="about-1.html">About Us-1</a></li>
+                                                <li><a href="about-2.html">About Us-2</a></li>
+                                            </ul>
+                                        </li>*@
+                                        <li><a href="Home">Home</a></li>
+                                        <li><a href="About">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="Appointment">Appointment</a></li>
+                                        <li class="dropdown yamm yamm-fw">
+                                            @*<a href="#" data-toggle="dropdown" class="dropdown-toggle">Components</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+
+                                                    <div class="yamm-content">
+
+                                                        <div class="row">
+                                                            <ul class="col-sm-3 list-unstyled">
+
+                                                                <li><a href="accordion.html">Accordion</a></li>
+                                                                <li><a href="columns.html">Columns</a></li>
+                                                                <li><a href="font-icons.html">Font Icons</a></li>
+                                                                <li><a href="photo-gallery.html">Photo Gallery</a></li>
+
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="pricing-table.html">Pricing Table</a></li>
+                                                                <li><a href="progress-bars.html">Progress Bars</a></li>
+                                                                <li><a href="tabs.html">Tabs</a></li>
+                                                                <li><a href="text-rotator.html">Text Rotator</a></li>
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="fact-counter.html">Fact Counter</a></li>
+                                                                <li><a href="alerts-callouts.html">Alerts & Callouts</a></li>
+                                                                <li><a href="sliders.html">Sliders</a></li>
+                                                                <li><a href="tables.html">Tables</a></li>
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="faq.html">FAQ</a></li>
+                                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                                <li><a href="typography.html">Typography</a></li>
+                                                                <li><a href="pie-chart.html">Pie Chart</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown yamm yamm-fw">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+
+                                                    <div class="yamm-content">
+
+                                                        <div class="row">
+                                                            <ul class="col-sm-3 list-unstyled">
+
+                                                                <li><a href="blog-left-side-bar.html">Blog Left Side Bar</a></li>
+                                                                <li><a href="blog-right-side-bar.html">Blog Right Side Bar</a></li>
+                                                                <li><a href="blog-full-width.html">Blog Full Width</a></li>
+                                                                <li><a href="blog-post.html">Blog Single Post</a></li>
+
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="portfolio-3col-1.html">Portfolio 3 Column 1</a></li>
+                                                                <li><a href="portfolio-3col-2.html">Portfolio 3 Column 2</a></li>
+                                                                <li><a href="portfolio-4col-1.html">Portfolio 4 Column 1</a></li>
+                                                                <li><a href="portfolio-4col-2.html">Portfolio 4 Column 2</a></li>
+
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="portfolio-item-1.html">Portfolio Item 1</a></li>
+                                                                <li><a href="portfolio-item-2.html">Portfolio Item 2</a></li>
+                                                                <li><a href="portfolio-item-3.html">Portfolio Item 3</a></li>
+                                                                <li><a href="portfolio-item-4.html">Portfolio Item 4</a></li>
+                                                            </ul>
+                                                            <ul class="col-sm-3 list-unstyled">
+                                                                <li><a href="portfolio-item-5.html">Portfolio Item 5</a></li>
+                                                                <li><a href="portfolio-item-6.html">Portfolio Item 6</a></li>
+                                                                <li><a href="portfolio-item-7.html">Portfolio Item 7</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>*@
+                                        <li><a href="Contact">Contact</a></li>
+                                        <li><a href="Blog">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Main Menu -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--End Header Intro-->
+    <!-- Section Title -->
+    <section id="section-title" class="bg-alternative">
+        <div id="top-img-bg">
+            <h1 class="text-center">Services</h1>
+        </div>
+    </section>
+    <!-- End Section Title -->
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="row tab-style-2">
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs tabs-left">
+                        <li class="active"><a href="#physiotherapy" data-toggle="tab"><span class="icon-i-physical-therapy"></span>&nbsp;Physiotherapy</a></li>
+                        <li><a href="#acupuncture" data-toggle="tab"><span class="fa fa-h-square"></span>&nbsp;Hijama</a></li>  
+                        <li><a href="#orthopedic-bracing" data-toggle="tab"><span class="fa fa-medkit"></span>&nbsp;DryCupping</a></li>
+                        <li><a href="#sports-injury" data-toggle="tab"><span class="icon-i-alternative-complementary"></span>&nbsp;DryNeedling</a></li>
+                        @*<li><a href="#rehabilitation" data-toggle="tab"><span class="icon-i-health-education"></span>&nbsp;Rehabilitation</a></li>*@
+                        <li><a href="#physical-theraphy" data-toggle="tab"><span class="icon-i-intensive-care"></span>&nbsp;Home Visit</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-9 col-xs-12 col-sm-12">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="physiotherapy" style="font-size:120%;font-weight:500">
+                            <div>
+                                <h3 class="text-center color-text">Physiotherapy</h3>
+                                <div class="vs-25"></div>
+                                <p><img src="~/assets/img/blog/physiotherapy.jpg" class="img-responsive" />Physiotherapy is a healthcare treatment primarily concerned with remedying of impairments and disabilities and promotion of mobility, functional ability, quality of life and movement potential, through examination, analysis or evaluation furthermore diagnosis and physical intervention.  Crux of the matter is that it is a treatment used to develop, maintain and restore maximum functional ability throughout life.</p>
+                                <p>Encompassing Exercises, Taping, Dry Needling, Manual Therapy and many more techniques, physiotherapy is exceedingly potent method for treatment of array of dysfunction, disabilities or any ailments, as aftermath of any injury or accident or surgeries. This dynamic profession, instituted around 460 B.C., has administered profoundly lucrative results in terms of patient’s recovery. Physiotherapy does not constrict to any ailment or age groups and time and again its use as a method of treatment has validated its potency.</p>
+                                <ol>
+                                    <li>Spinal pain and injuries</li>
+                                    <li>Headaches</li>
+                                    <li>Sports injuries</li>
+                                    <li>Fractures</li>
+                                    <li>Musculoskeletal problem</li>
+                                    <li>Post-surgical rehabilitation</li>
+                                    <li>Biomechanical problems</li>
+                                    <li>Arthritic conditions</li>
+                                    <li>Neurological diseases and disorders</li>
+                                    <li>Cardiothoracic conditions </li>
+                                    <li>Peadiatric conditions</li>                                                                      
+                                </ol>
+                                <p>and to name a few can be treated using physiotherapy.</p> 
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="acupuncture" style="font-size:120%;font-weight:500">
+                            <h3 class="text-center color-text">Hijama</h3>
+                            <div class="vs-25"></div>
+                            <p><img src="~/assets/img/blog/hijama.jpg" class="img-responsive" />An Arabic term, Al-hijamah literally means “to suck/draw out” and to“ return to a normal state” of internal balance. It ultimately helps the body to create a balance, healthy alkaline environment by removing acidity. This fixes any problem that the body has, by bringing it to its normal state. Originated about 5000 years ago, Cupping therapy has demonstrated its medical, preservative and restorative powers for many years in Greek, Indian, Chinese, Turkish and many more cultures. Hijama forms an integral part of Islamic medicine is expressed as safe and non-invasive procedure to not only cure the ailments but also prevent them.</p>
+                            <p>A forgotten old tale, Hijama is a ‘Sunnah’, recommended by Prophet, wherein it is advised to carry out Cupping on 17th, 19th, and 21st  of Islamic, lunar month, to remedy the human of every ailment. The difference between the Arabs or Muslims and others in doing hijama  is that Arabs or Muslims do it as the Sunnah of the Prophet while others do it for purely medical purposes</p>
+                            <p>In this technique, the cup is left to cling to the skin for a few minutes, and then is lifted off and several very small incisions are made in the skin. The cup is then put back as it was before until the flow of blood subsides. It expels negative, unhealthy elements from the body, and allows it to replenish itself. Hijama is believed to benefit holistic body enhancement and restoration.</p>
+
+                        </div>
+                        <div class="tab-pane" id="orthopedic-bracing" style="font-size:120%;font-weight:500">
+                            <h3 class="text-center color-text">Dry Cupping</h3>
+                            <div class="vs-25"></div>
+                            <p><img src="~/assets/img/blog/drycupping.jpg" class="img-responsive" />Dry Cupping is an ancient medical practice, whose roots can be recorded back to Egyptian and Middle Eastern cultures more than 3000 years ago. Even Chinese used Dry cupping for treatment of various diseases. Earlier people used instruments made of ceramic, animal horns, bamboo and glass. Today, however, cups made of glass, rubber, plastic or silicone, are used. Earlier suction was executed using fire, modern practitioners, as of now use rubber pumps to create suction rather than traditional heating methods. Mild discomfort, burns, bruises and skin infection can be perceived after cupping.</p>
+                            <p>This method helps to boost blood circulation and thereupon speed up healing process, reduce pain and ease muscle soreness. Suctions cups of varying sizes are used to draw blood to the surface of the skin, hence boosting the blood circulation. Statistical data have recorded pattern of significant improvement considering the health charts and recovery rate among patients.</p>
+                            <p>Patients suffering from chronic headaches and pains, Herpes Zoster, Facial Paralysis, Cough and Dyspnea, acne, lumbar disc herniation, cervical spondylosis tend to use Dry Cupping as a treatment regime. Cupping therapy has also been used to treat several other conditions including blood disorders such as anemia and hemophilia, rheumatic diseases such as arthritis, fertility and other gynecological disorders, eczema, acne, high blood pressure, migraines, anxiety, depression, allergies, asthma, and varicose veins.</p>
+                        </div>
+                        <div class="tab-pane" id="sports-injury" style="font-size:120%;font-weight:500">
+                            <h3 class="text-center color-text">Dry Needling</h3>
+                            <div class="vs-25"></div>
+                            <p><img src="~/assets/img/blog/dryneedling.jpg" class="img-responsive" />Dry needling is a neurological evidence-based treatment technique that requires effective manual assessment of the neuromuscular system. Physical therapists are well trained to utilize dry needling in conjunction with manual physical therapy interventions. Research states, needling improves pain control, reduces muscle tension, normalizes biochemical and electrical dysfunction of motor end plates, and facilitates an accelerated return to active rehabilitation.</p>
+                            <p>Joint dysfunction, disk pathology, tendonitis, neck, back and shoulder pain, arm pain, headaches, jaw pain, buttock pain and leg pain, running injuries, pelvic pain and many more can be treated using Dry Needling technique.</p>
+                            <p>Dry Needling works by changing the way your body senses the pain (neurological effects) and help by helping the body heal stubborn muscle spasm associated with trigger points (myofascial effects). Having trained in needling techniques, the therapist will choose a technique appropriate for your condition and your body size and then insert it at the appropriate place. One may feel a small pinprick.</p>
+                            <p>When hurt or injured, the patient may sense inflammation from the damaged tissue, which will thereon go into protective state to defend against further damage. This inflammation inhibits microcirculation which limits both the rich oxygen blood from reaching the injury and waste products from leaving the injury. The needles cut muscle fibers and produce an inflammatory reaction to which body will decrease muscle contraction, reduce chemical irritation, improve flexibility and decrease pain.</p>
+                            
+                        </div>
+                        @*<div class="tab-pane" id="rehabilitation" style="font-size:120%">
+                            <h3 class="text-center color-text">Rehabilitation</h3>
+                            <div class="vs-25"></div>
+                            <p><img src="~/assets/img/blog/3.jpg" class="img-responsive" />Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.</p>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.</p>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.</p>
+                        </div>*@
+                        <div class="tab-pane" id="physical-theraphy" style="font-size:120%;font-weight:500">
+                            <h3 class="text-center color-text">Home Visit</h3>
+                            <div class="vs-25"></div>
+                            <p><img src="~/assets/img/blog/homevisit.jpg" class="img-responsive" /></p>
+                            <ul>
+                                <li>Get treated at home by experienced Physiotherapist.</li>
+                                <li>Save the money and time associate with travelling.</li>
+                                <li>Great for patients with limited mobility and busy schedules.</li>
+                                <li>Get treated in the comforts of your own home by highly qualified and experienced physiotherapist.</li>
+                                <li>Personalized experience enables to build bonds of transparency and trust further helping in quick recovery.</li>
+                                <li>Our treatment plans are developed in close consultation with the patients and are personalized to suit their goals and circumstances.</li>
+                                <li>Saves time and money associate with travelling.</li>
+                                <li>Great for patients with limited mobility and busy schedules.</li>
+                                <li>Schedule visits at a time that's convenient for you.</li>
+                                <li>Spend up to one hour with the doctor.</li>
+                            </ul>
+                            <p>Get treated in the comfort of your natural surroundings for various conditions.</p> 
+                            <p>An added advantage of getting a physiotherapist at home is that it allows the rest of the family members to be involved in the treatment and get a better understanding of the condition.
+                            Likewise it provides them an opportunity to ask questions to the physiotherapist if any.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+    <!-- Dark Bg -->
+    <div class="dark-bg  default-hovered animated-text">
+        <div class="container pt-0 pb-0">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h2>Dr.Jasmine's Physiotherapy Centre is just a few steps away</h2>
+                        <h2>Hurry Up Now !!!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Dark Bg -->
+    @************************************@
+    <!-- Appointment -->
+    <section id="appointment">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class="text-center">Make An Appointment</h1>
+                    <div class="vs-35">
+                    </div>
+                    <p class="text-center">Are your day-to- day activities getting hindered because of neck-pain, back-pain, Joint or muscular pain,
+                                           impairments, Arthritis, Parkinson’s, Paralysis or pain after surgery, accident or injury and many more
+                                           reasons, then its high time you make an appointment! Consult our highly experienced team of
+                                           physiotherapy and get the best treatment ever.</p>
+                </div>
+            </div>
+            <div class="vs-35">   </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <img class="img-responsive" src="assets/img/blog/Make an appointment.jpg" />
+                </div>
+                <div class="col-xs-12 col-sm-6">
+
+                    <form method="post" action="Submit" class="default-form">
+                        <div class="row clearfix">
+                            <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                <input type="text" name="Name" value="" placeholder="Your Name" required="">
+                            </div>
+                            <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                <input type="email" name="Email" value="" placeholder="Your Email" required="">
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <select name="Subject">
+                                    <option>-Subject to Discuss-</option>
+                                    <option>Physiotherapy</option>
+                                    <option>Hijama</option>
+                                    <option>Dry Cupping</option>
+                                    <option>Dry Needling</option>
+                                    <option>Home Visit</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" name="Contact" value="" placeholder="Your Phone Number" required="">
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" name="Address" value="" placeholder="Your Address" required="">
+                            </div>
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <input type="text" name="AppointmentDate" id="datepicker" value="" placeholder="Appointment Date" required="">
+                            </div>
+                            <div class="form-group padd-top-10 col-md-12 col-sm-12 col-xs-12">
+                                <button type="submit" class="btn btn-normal pull-right">Send Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Appointment -->
+    @*********************************@
+    <!-- Footer -->
+    <footer class="bg-blue-3">
+        <div class="container pb-0">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3>About Us</h3>
+                    <p>Highly Qualified Team <br />
+                        Our Experts  <br />
+                        Photo Gallery<br />
+                        Contact Us   <br />
+                        Testimonials <br />
+                        Blog         <br />
+                        Contact      <br />
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3> Provided Services</h3>
+                    <ul class="provided-services">
+                        <li><a href="Services">Physiotherapy</a></li>
+                        <li><a href="Services">Hijama</a></li>
+                        <li><a href="Services">Dry Cupping</a></li>
+
+                    </ul>
+                    <ul class="provided-services">
+                        <li><a href="Services">Dry Needling</a></li>
+                        <li><a href="Services">Rehabilitation</a></li>
+                        <li><a href="Services">Home Visit</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Address: Momin Manzil,
+                                <br>  Madhav Rao Gangan St,
+                                <br>  Agripada,Maharashtra,
+                                <br>  Mumbai-400008. <br />
+                        Phone: (+91) 900 456 1406<br />
+                        Email: healthcare@drjasmines.com
+                    </p>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <h3>Opening Hours</h3>
+                    <p>
+                        Mon-Sat <br />
+                        10am-6pm<br />
+                        Sunday CLOSED
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <hr />
+            </div>
+            <div class="row">
+                <div class="footer-inner-wrap">
+                    <div class="footer-inner">
+                        <div class="col-lg-12">
+                            <p class="text-center">&copy;2017 Allrights reserved</p><p class="text-center">
+                                <a href="https://www.facebook.com/DrJasmines/" class="btn-social-media"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="btn-social-media"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="btn-social-media"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="btn-social-media"><i class="fa fa-pinterest"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Go Back Top-->
+    <section id="go-back-top">
+        <a class="scroll" href="#main-menu">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </section>
+    <!-- End Go Back Top-->
+    <!--Core Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!--External Scripts-->
+    <script src="~/assets/js/external/jquery.backstretch.min.js"></script>
+    <script src="~/assets/js/external/jquery.countTo.js"></script>
+    <script src="~/assets/js/external/jquery.easing.1.3.js"></script>
+    <script src="~/assets/js/external/jquery.mb.YTPlayer.js"></script>
+    <script src="~/assets/js/external/waypoints.min.js"></script>
+    <script src="~/assets/js/external/jquery.bxslider.min.js"></script>
+    <script src="~/assets/js/external/slick.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/assets/js/external/lightbox-2.6.min.js"></script>
+    <!--Project Scripts-->
+    <script src="~/assets/js/project/script.js"></script>
+</body>
+</html>
+
